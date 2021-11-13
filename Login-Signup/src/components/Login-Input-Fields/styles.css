@@ -1,0 +1,32 @@
+.signup-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .signup-input-field {
+    height: 2.5rem;
+    width: 20rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .signup-input-field input {
+    border-top: none;
+    border-bottom: 1px solid #c5c5c5;
+    border-right: none;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: none;
+    height: 2.5rem;
+    width: 20rem;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  .signup-input-field input::placeholder {
+    color: #c5c5c5;
+  }
+  
